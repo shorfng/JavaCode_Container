@@ -22,7 +22,7 @@ public class BootstrapV2 {
     /**
      * 定义 socket 监听的端口号
      */
-    private int port = 8080;
+    private int port = 8082;
 
     /**
      * Minicat 的程序启动入口
@@ -39,7 +39,7 @@ public class BootstrapV2 {
     }
 
     // Minicat 2.0版本：封装Request和Response对象，返回html静态资源文件
-    // http://localhost:8080/index.html
+    // http://localhost:8082/index.html
     /**
      * Minicat 启动需要初始化展开的一些操作
      */

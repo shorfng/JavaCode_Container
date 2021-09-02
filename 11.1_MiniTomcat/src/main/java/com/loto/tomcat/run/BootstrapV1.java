@@ -19,7 +19,7 @@ public class BootstrapV1 {
     /**
      * 定义 socket 监听的端口号
      */
-    private int port = 8080;
+    private int port = 8081;
 
     /**
      * Minicat 的程序启动入口
@@ -35,7 +35,7 @@ public class BootstrapV1 {
         }
     }
 
-    // Minicat 1.0版本：浏览器请求 http://localhost:8080，返回一个固定的字符串到页面 "Hello Minicat!"
+    // Minicat 1.0版本：浏览器请求 http://localhost:8081，返回一个固定的字符串到页面 "Hello Minicat!"
     /**
      * Minicat 启动需要初始化展开的一些操作
      */
